@@ -1,0 +1,71 @@
+.TextMessage {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  margin: 0 auto;
+  width: 96%;
+  height: 36px;
+  font-size: 10px;
+  padding: 6px;
+  background: #222034;
+  border: 1px solid white;
+  color: white;
+  font-family: 'VT323', monospace;
+}
+
+.TextMessage_p {
+  position: relative;
+  margin: 0;
+  font-size: 10px;
+  width: 60%;
+  left: 18%;
+}
+
+.TextMessage span {
+  opacity: 0;
+}
+
+.TextMessage span.revealed {
+  opacity: 1;
+}
+
+.TextMessage_button {
+  margin: 0;
+  font-size: 8px;
+  padding: 0;
+  -webkit-appearance: none;
+  background: none;
+  border: 0;
+  font-family: inherit;
+  cursor: pointer;
+  color: white;
+
+  position: absolute;
+  right: 2px;
+  bottom: 0;
+}
+
+.talkingNPC {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.talkingMC {
+  position: absolute;
+  bottom: 0;
+  left: -1em;
+}
+
+.talkingNPC img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.talkingMC img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
